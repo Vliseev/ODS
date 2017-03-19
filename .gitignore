@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
+jupyter_notebooks/topic3_decision_trees_knn/grid_forest
 # Distribution / packaging
 .Python
 env/
