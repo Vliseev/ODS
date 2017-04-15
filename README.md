@@ -7,15 +7,16 @@
 3. [Классификация, деревья решений и метод ближайших соседей](https://habrahabr.ru/company/ods/blog/322534/)
 4. [Линейные модели классификации и регрессии](https://habrahabr.ru/company/ods/blog/323890/)
 5. [Композиции: бэггинг, случайный лес](https://habrahabr.ru/company/ods/blog/324402/)
-6. Обучение без учителя: PCA, кластеризация, поиск аномалий
-7. Искусство построения и отбора признаков. Приложения в задачах обработки текста, изображений и гео-данных
+6. [Построение и отбор признаков](https://habrahabr.ru/company/ods/blog/325422/)
+7. Обучение без учителя: PCA, кластеризация, поиск аномалий
 
 ## Домашние задания
 1. [Анализ данных по доходу населения UCI Adult](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic1_pandas_data_analysis/hw1_adult_pandas.ipynb), [веб-форма](https://goo.gl/forms/63kYBviuDJuFz24E2) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic1_pandas_data_analysis/%5Bsolution%5D_hw1_adult_pandas.ipynb)
 2. [Визуальный анализ данных о публикациях на Хабрахабре](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic2_visual_analysis/hw2_habr_visual_analysis.ipynb), [веб-форма](https://goo.gl/forms/p8x0SGmn91VCNB6o2) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic2_visual_analysis/%5Bsolution%5D_hw2_habr_visual_analysis.ipynb)
 3. [Деревья решений в игрушечной задаче и на данных Adult репозитория UCI](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/hw3_decision_trees.ipynb), [веб-форма](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/hw3_decision_trees.ipynb) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/%5Bsolution%5D_hw3_decision_trees.ipynb)
-4. Линейные модели классификации и регрессии в соревнованиях Kaggle Inclass. [Часть 1: идентификация взломщика](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part1_websites_logistic_regression.ipynb),  [Часть 2: прогноз популярности статьи на Хабрахабре](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part2_habr_popularity_ridge.ipynb), [веб-форма](https://goo.gl/forms/6ii1zGEnfJvXhy6E2) для ответов
-5. [Логистическая регрессия и случайный лес в задаче кредитного скоринга](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic5_bagging_rf/hw5_logit_rf_credit_scoring.ipynb), [веб-форма](https://docs.google.com/forms/d/e/1FAIpQLSdUPWLr5N3YQ1aUpJQGcuJ5UrqUe19rIncpgRLxxlS_XMaUxA/viewform?c=0&w=1) для ответов
+4. Линейные модели классификации и регрессии в соревнованиях Kaggle Inclass. [Часть 1: идентификация взломщика](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part1_websites_logistic_regression.ipynb),  [Часть 2: прогноз популярности статьи на Хабрахабре](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part2_habr_popularity_ridge.ipynb), [веб-форма](https://goo.gl/forms/6ii1zGEnfJvXhy6E2) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/%5Bsolution%5D_hw4_part1_websites_logistic_regression.ipynb) 1 части, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/%5Bsolution%5D_hw4_part2_habr_popularity_ridge.ipynb) 2 части
+5. [Логистическая регрессия и случайный лес в задаче кредитного скоринга](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic5_bagging_rf/hw5_logit_rf_credit_scoring.ipynb), [веб-форма](https://docs.google.com/forms/d/e/1FAIpQLSdUPWLr5N3YQ1aUpJQGcuJ5UrqUe19rIncpgRLxxlS_XMaUxA/viewform?c=0&w=1) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic5_bagging_rf/%5Bsolution%5D_hw5_logit_rf_credit_scoring.ipynb)
+6. Работа с признаками. [тетрадка](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic6_features/hw6_features.ipynb), [веб-форма](https://goo.gl/forms/1aSusaXaYm7T422o2) для ответов
 
 ## Соревнования Kaggle Inclass
 1. [Прогноз популярности статьи на Хабре](https://inclass.kaggle.com/c/howpop-habrahabr-favs-lognorm)
@@ -25,7 +26,7 @@
 В течение курса ведется [рейтинг](https://docs.google.com/spreadsheets/d/1thts1kTZev82aIvTa2MJAioTXjU9NjCPC7sFe1vZiEY/edit?usp=sharing). На него влияют:
  - домашние задания (от 10 до 20 баллов за каждое)
  - соревнования Kaggle Inclass (за каждое 40(1−(p−1)/N) баллов, где p – место участника в приватном рейтинге, N – число участников, побивших все бенчмарки в приватном рейтинге)
- - разовые короткие контесты, объявляемые в slack OpenDataScience в канале #mlcourse_open (от 1 до 5 баллов)
+ - разовые короткие контесты, объявляемые в slack OpenDataScience в канале #mlcourse_open (от 1 до 8 баллов)
 
 ## Авторы статей и лекторы 
 *(в скобках – ники в OpenDataScience и на Хабрахабре)*
@@ -51,11 +52,11 @@ Data Scientist в Segmento, г. Санкт-Петербург. Ментор [с�
 #### Виталий Радченко (@vradchenko, [vradchenko](https://habrahabr.ru/users/vradchenko/))
 Data Science Intern в компании Ciklum. Студент магистерской программы Computer Science with Specialization in Data Science в Украинском Католическом Университете. Организовывает кагл-тренировки и другие активности по Data Science в Киеве и Львове. Был ментором [специализации](https://www.coursera.org/specializations/machine-learning-data-analysis) Яндекса и МФТИ "Машинное обучение и анализ данных". Раньше работал в банке, большой ритейл-компании и интернет-рекламе.
 
+#### Арсений Кравченко (@arsenyinfo, [Arseny_Info](https://habrahabr.ru/users/Arseny_Info/))
+Data Science Team Lead в [Juno](https://gojuno.com/). В прошлом - аналитик-разработчик в Яндексе и менеджер по продукту в Wargaming.
+
 #### Сергей Королев (@libfun, [libfun](https://habrahabr.ru/users/libfun/))
 Исследователь в СколТехе
-
-#### Арсений Кравченко (@arsenyinfo, [Arseny_Info](https://habrahabr.ru/users/Arseny_Info/))
-Data Science Teamlead @ [gojuno.com](https://gojuno.com/)
 
 #### Дмитрий Сергеев (@dmitryserg)
 Data Scientist @ Zeptolab, лектор в Центре Математических Финансов МГУ
